@@ -1,13 +1,16 @@
 {
   "name": "netrum-dev-hunting",
   "version": "1.0.0",
+  "type": "module",
   "description": "Netrum AI Dev-Hunting Program – TypeScript Developer Registry",
   "main": "applications/DEV-APPLICATION.ts",
   "scripts": {
     "build": "tsc -p tsconfig.main.json",
     "start": "tsx dist/applications/DEV-APPLICATION.js",
     "dev": "tsx src/applications/DEV-APPLICATION.ts",
-    "test": "ts-node --files test.ts"
+    "test": "ts-node --files test.ts",
+    "start": "node dist/applications/DEV-APPLICATION.js"
+
   },
   "keywords": [
     "netrum",
