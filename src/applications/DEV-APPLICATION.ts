@@ -1,9 +1,15 @@
-// src/📁 applications/DEV-APPLICATION.ts
+// src/applications/DEV-APPLICATION.ts
 
 import fs from "fs";
 import path from "path";
-import { devRegistry } from "../main.js";
 
+// ✅ Define devRegistry locally — no import needed
+const devRegistry = [
+  {
+    name: "Jhon Russel Masigcal",
+    folder: "0xjhinkz-dev",
+  },
+];
 
 type DevInfo = {
   name: string;
@@ -15,7 +21,6 @@ const devApplications: { name: string; content: string }[] = [];
 console.log("🚀 Application loaded");
 
 devRegistry.forEach((dev: DevInfo) => {
-  
   const mdPath = path.resolve(process.cwd(), "dev", dev.folder, "application.md");
 
   try {
