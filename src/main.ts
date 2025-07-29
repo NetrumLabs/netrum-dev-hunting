@@ -1,10 +1,11 @@
-// src/main.ts
-
-export const devRegistry = [
+export const registeredDevs = [
   {
-    name: "Saandy",
-    folder: "Saandy-dev",
-  },
-  
-  // 🔰 New devs just add entry here
+    name: "0xEixa",
+    discord: "0xeixa",
+    github: "https://github.com/nheoshikuyanhemo",
+    languages: ["TypeScript", "Python"],
+    experience: "Newbie, still learning Web3 and AI",
+    aiTools: ["ChatGPT", "Langchain", "Pinecone"],
+    reason: "I’m a student passionate about building decentralized AI tools.",
+  }
 ];

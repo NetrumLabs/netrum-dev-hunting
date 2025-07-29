@@ -1,36 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es2022",
+    "target": "ES2020",
     "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
+    "moduleResolution": "node",
+    "moduleDetection": "force",
     "strict": true,
-    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
-    "incremental": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "resolveJsonModule": true
   },
-  "include": [
-    ".eslintrc.cjs",
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.cjs",
-    "**/*.js",
-    ".next/types/**/*.ts",
-    "src/styles/global.css"
-  ],
-  "exclude": [
-    "node_modules/*",
-    ".next",
-    "out",
-    "build",
-    "dist",
-    "supabase"
-  ]
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
 }
