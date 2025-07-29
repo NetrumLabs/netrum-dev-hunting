@@ -1,37 +1,15 @@
-// src/📁 applications/DEV-APPLICATION.ts
+import { registeredDevs } from "../main.js";
 
-import fs from "fs";
-import path from "path";
-import { devRegistry } from "../main";
-
-
-type DevInfo = {
-  name: string;
-  folder: string;
-};
-
-const devApplications: { name: string; content: string }[] = [];
+registeredDevs.push({
+  name: "0xEixa",
+  discord: "0xeixa",
+  github: "https://github.com/nheoshikuyanhemo",
+  languages: ["TypeScript", "Python"],
+  experience: "Newbie, still learning Web3 and AI",
+  aiTools: ["ChatGPT", "Langchain", "Pinecone"],
+  reason: "I’m a student passionate about building decentralized AI tools."
+});
 
 console.log("🚀 Application loaded");
-
-devRegistry.forEach((dev: DevInfo) => {
-  
-  const mdPath = path.resolve(process.cwd(), "dev", dev.folder, "application.md");
-
-  try {
-    const content = fs.readFileSync(mdPath, "utf-8");
-    devApplications.push({
-      name: dev.name,
-      content,
-    });
-  } catch (e) {
-    console.warn(`⚠️ Could not load: ${mdPath}`);
-  }
-});
-
 console.log("✅ Registered Developers:");
-devApplications.forEach((dev, i) => {
-  console.log(`${i + 1}. ${dev.name}`);
-});
-
-export { devApplications };
+console.log(registeredDevs.map((d, i) => `${i + 1}. ${d.name}`).join("\n"));

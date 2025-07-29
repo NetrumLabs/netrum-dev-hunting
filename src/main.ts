@@ -1,10 +1,9 @@
-// src/main.ts
-
-export const devRegistry = [
-  {
-    name: "Your Name",
-    folder: "template",
-  },
-  
-  // 🔰 New devs just add entry here
-];
+export const registeredDevs: {
+  name: string;
+  discord: string;
+  github: string;
+  languages: string[];
+  experience: string;
+  aiTools: string[];
+  reason: string;
+}[] = [];
