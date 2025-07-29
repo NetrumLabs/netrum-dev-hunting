@@ -2,8 +2,8 @@
 
 export const devRegistry = [
   {
-    name: "Saandy",
-    folder: "Saandy-dev",
+    name: "megikyura",
+    folder: "megikyura-dev",
   },
   
   // 🔰 New devs just add entry here
