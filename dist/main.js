@@ -1,8 +1,8 @@
 // src/main.ts
 export const devRegistry = [
     {
-        name: "Saandy",
-        folder: "Saandy-dev",
+        name: "HeruPrazz",
+        folder: "HeruPrazz-dev",
     },
     // 🔰 New devs just add entry here
 ];
