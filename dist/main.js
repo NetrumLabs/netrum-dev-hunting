@@ -4,5 +4,4 @@ export const devRegistry = [
         name: "HeruPrazz",
         folder: "HeruPrazz-dev",
     },
-    // 🔰 New devs just add entry here
-];
+    // 🔰 New devs just add entry h
