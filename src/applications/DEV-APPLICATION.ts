@@ -2,7 +2,7 @@
 
 import fs from "fs";
 import path from "path";
-import { devRegistry } from "../main";
+
 
 
 type DevInfo = {
@@ -13,6 +13,13 @@ type DevInfo = {
 const devApplications: { name: string; content: string }[] = [];
 
 console.log("🚀 Application loaded");
+const devRegistry: DevInfo[] = [
+  {
+    name: "Barizi M",
+    folder: "barizi211-dev",
+  }
+];
+
 
 devRegistry.forEach((dev: DevInfo) => {
   

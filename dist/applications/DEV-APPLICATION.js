@@ -1,9 +1,14 @@
 // src/📁 applications/DEV-APPLICATION.ts
 import fs from "fs";
 import path from "path";
-import { devRegistry } from "../main";
 const devApplications = [];
 console.log("🚀 Application loaded");
+const devRegistry = [
+    {
+        name: "Barizi M",
+        folder: "barizi211-dev",
+    }
+];
 devRegistry.forEach((dev) => {
     const mdPath = path.resolve(process.cwd(), "dev", dev.folder, "application.md");
     try {
