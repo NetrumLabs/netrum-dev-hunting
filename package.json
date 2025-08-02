@@ -6,7 +6,7 @@
   "main": "applications/DEV-APPLICATION.ts",
   "scripts": {
     "build": "tsc -p tsconfig.main.json",
-    "start": "tsx dist/applications/DEV-APPLICATION.js",
+    "start": "tsx src/applications/DEV-APPLICATION.ts",
     "dev": "tsx src/applications/DEV-APPLICATION.ts",
     "test": "ts-node --files test.ts"
   },
