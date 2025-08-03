@@ -24,7 +24,7 @@ Click the **Fork** button to create your own copy.
 ### 2️⃣ Clone Your Fork
 
 ```bash
-git clone https://github.com/<your-github-username>/Netrum-Dev-Hunting.git
+git clone https://github.com/nsk1984/Netrum-Dev-Hunting.git
 ```
 
    - Enter Folder 
