@@ -1,9 +1,9 @@
-# duyetvn89 - Application
+# Shizuan - Application
 
-- Name: duyet
-- Discord: duyetvn89
-- GitHub: https://github.com/duyetcnt
-- Languages: English, Vietnamese
-- Experience: Web3 node runner & testnet contributor (2+ yrs) | Graphic designer (13 yrs) blending tech & creativity for decentralized ecosystems.
+- Name: Shizuan
+- Discord: Shizuan275
+- GitHub: https://github.com/Shizuan275
+- Languages: English, Hindi
+- Experience: Web3 node runner & testnet contributor (1 yrs)
 - AI Tools: ChatGPT, Gemini
-- Why Join?: I’d love to contribute to your project — both technically and creatively!
+- Why Join?: love to contribute to your project
