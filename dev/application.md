@@ -1,10 +1,9 @@
+# 🧑‍💻 BoyGau - Application
 
-#  🧑‍💻 YoureName - Application
-
-- **Nmae**: smith
-- **Discord**: smithskz
-- **GitHub**: https://github.com/smithskz
-- **Languages**: english
-- **Experience**: 1 year
-- **AI Tools**: NA
-- **Why Join?**: learning
+- **Name**: BoyGau
+- **Discord**: boygau
+- **GitHub**: https://github.com/BoyGau
+- **Languages**: English
+- **Experience**: 2 years in blockchain & web development, Node operator for Cosmos and Polkadot ecosystems
+- **AI Tools**: ChatGPT, GitHub Copilot, MidJourney, DeepSeek, Gemini 2.0
+- **Why Join?**: I want to contribute to the Netrum ecosystem and develop advanced decentralized AI solutions
