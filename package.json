@@ -1,0 +1,12 @@
+{
+  "name": "netrum-dev-hunting",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx src/applications/DEV-APPLICATION.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}
