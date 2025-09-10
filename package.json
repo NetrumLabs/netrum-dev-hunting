@@ -3,10 +3,5 @@
   "version": "1.0.0",
   "lockfileVersion": 3,
   "requires": true,
-  "packages": {
-    "": {
-      "name": "netrum-dev-hunting",
-      "version": "1.0.0"
-    }
-  }
+  "packages": {}
 }
