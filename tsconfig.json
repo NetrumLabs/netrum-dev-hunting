@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "target": "es2022",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "module": "commonjs",  // Node.js için "commonjs" daha uygundur
+    "moduleResolution": "node",  // Node.js modül çözümleme
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -10,9 +10,9 @@
     "noUncheckedIndexedAccess": true,
     "skipLibCheck": true,
     "incremental": true,
-    "baseUrl": ".",
+    "baseUrl": ".",  // Bu ayar projenizin kök dizinine göre yapılır
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"]  // Eğer @ kullanıyorsanız, bu ayar doğru
     }
   },
   "include": [

@@ -1,0 +1,24 @@
+{
+  "name": "netrum-dev-hunting",
+  "version": "1.0.0",
+  "description": "Welcome to the **Netrum AI Dev-Hunting Program** – a community-driven registry for TypeScript developers contributing to the Netrum ecosystem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/applications/DEV-APPLICATION.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arceina8/Netrum-Dev-Hunting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arceina8/Netrum-Dev-Hunting/issues"
+  },
+  "homepage": "https://github.com/arceina8/Netrum-Dev-Hunting#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

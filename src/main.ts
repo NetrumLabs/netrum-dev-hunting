@@ -1,6 +1,6 @@
 export const devRegistry = [
   {
-    name: "jaydaz",
-    folder: "jaydaz-dev"
+    name: "artuza.",
+    folder: "artuza.-dev"
   }
 ];

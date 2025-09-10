@@ -1,9 +1,8 @@
-// src/📁 applications/DEV-APPLICATION.ts
+// src/applications/DEV-APPLICATION.ts
 
 import fs from "fs";
 import path from "path";
 import { devRegistry } from "../main";
-
 
 type DevInfo = {
   name: string;
@@ -15,7 +14,6 @@ const devApplications: { name: string; content: string }[] = [];
 console.log("🚀 Application loaded");
 
 devRegistry.forEach((dev: DevInfo) => {
-  
   const mdPath = path.resolve(process.cwd(), "dev", dev.folder, "application.md");
 
   try {
@@ -24,8 +22,13 @@ devRegistry.forEach((dev: DevInfo) => {
       name: dev.name,
       content,
     });
-  } catch (e) {
-    console.warn(`⚠️ Could not load: ${mdPath}`);
+  } catch (e: unknown) {  // Burada 'unknown' tipini kullandık
+    // 'e' tipini 'Error' olarak doğruluyoruz
+    if (e instanceof Error) {
+      console.warn(`⚠️ Could not load: ${mdPath}. Error: ${e.message}`);
+    } else {
+      console.warn(`⚠️ Could not load: ${mdPath}. Unknown error.`);
+    }
   }
 });
 
