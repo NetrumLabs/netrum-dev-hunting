@@ -1,0 +1,20 @@
+{
+  "name": "netrum-dev-hunting",
+  "version": "1.0.0",
+  "description": "Welcome to the **Netrum AI Dev-Hunting Program** ^^s a community-driven registry for TypeScript developers contributing to the Netrum ecosystem. Follow the steps below to register y>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.7.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
