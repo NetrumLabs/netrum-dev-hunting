@@ -1,0 +1,10 @@
+{
+  "name": "jhancel19-dev",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
+
